@@ -257,6 +257,7 @@ margin-bottom: 10rem;
 footer{
     height: 50vh;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -304,11 +305,14 @@ hr{
 
 @media only screen and (max-width: 768px){
     .mainn-headings, .primary-heading{
-
         font-size: 2.5rem;
     }
     #our-story{
         text-align: center;
+    }
+    .title{
+        font-size: 2.5rem;
+        margin: 0 auto;
     }
 
     #our-story .title{
