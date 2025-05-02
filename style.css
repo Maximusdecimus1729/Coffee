@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+button {
+    padding: 10px 30px;
+    background: yellow;
+    border: none;
+    cursor: pointer;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black
+}
+
+/*Nav Start*/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 15px
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+
+li a:hover {
+    border-bottom: 2px solid white
+}
+
+/*nav end*/
+
+/* Header Start */
+.header {
+    background: url(pexels-nao-triponez-129207.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    /*Flexbox*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.main-heading {
+    position: absolute;
+    top: 7rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+    margin-bottom: -40px;
+
+}
+
+.primary-heading {
+    position: absolute;
+    bottom: 4rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+    margin-bottom: -40px;
+
+}
+
+.main-btn {
+    position: absolute;
+    bottom: 2rem;
+    padding: 10px 30px;
+    margin-top: 20px;
+    background: transparent;
+    background: yellow;
+    transform: translateY(60px);
+}
+
+/* story start */
+
+#our-story{
+    /* height: 100vh; */
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.img{
+    width: 400px;
+    height: 400px;
+    background: url(pexels-chitokan-2183027-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.title-style{
+  font-family: "Playfair Display", serif;
+   font-size: 4rem;
+   color: white;
+   transform: translateX(-100px);
+
+}
+
+.line{
+    width: 100px; 
+    height: 2px;
+    background: white;
+    transform: translateX(-120px);
+}
+
+.section-content P {
+   max-width: 500px;
+   color: white;
+   font-family: sans-serif;
+   line-height: 20px;
+   margin: 20px 0; 
+}
+
+/* story end */
+/* coffee start */
+
+.coffee-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: centre;
+    margin-top: 10rem;
+   
+
+}
+
+.content-section p{
+    max-width: 500px;
+}
+
+
+.img-2{
+    width: 400px;
+    height: 400px;
+}
+
+.title-two{
+    font-size: 3rem;
+    color: white;
+    font-family: "Playfair Display", serif;
+}
+
+.content-section p{
+    max-width: 500px;
+    margin-top: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* coffee start end */
+
+/* products */
+
+.products{
+    margin-top: 5rem;
+}
+
+.title-three{
+font-size: 4rem;
+margin-left: 10rem;
+margin-top: 10rem;
+margin-bottom: 10rem;
+
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.card {
+    border: 2px solid yellow;
+    
+    padding: 0 20px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 4rem; 
+
+}
+
+.card-img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -60px;
+    
+
+}
+
+.img-one{
+    background: url(1.png);
+    background-position: center;
+    background-size: cover;
+}
+.img-two{
+    background: url(2.png);
+    background-position: center;
+    background-size: cover;
+}
+.img-three{
+    background: url(3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.card-title{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 50px;
+
+}
+
+.card .items p{
+    color: white;
+    margin: 20px 0;
+    font-family: sans-serif;
+
+}
+
+/* product end */
+
+footer{
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+footer .container{
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+/* footer .para{
+    text-align: centre;
+    bottom: 20px;
+} */
+
+footer .heading-info{
+    margin-bottom: 20px;
+}
+
+footer p{
+    line-height: 25px;
+}
+
+span{
+    color: yellow;
+
+}
+
+hr{
+    margin-bottom: 20px;
+    border: yellow;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.para{
+    color: white;
+
+}
+
+/* reponsivness */
+
+@media only screen and (max-width: 768px){
+    .mainn-headings, .primary-heading{
+
+        font-size: 2.5rem;
+    }
+    #our-story{
+        text-align: center;
+    }
+
+    #our-story .title{
+        transform: translateX(50px);
+
+    }
+    #our-story .line{
+        disaplay: none;
+    }
+
+    .content-section{
+        text-align: cneter;
+    }
+
+    #our-sotry .img-container.img{
+        width: 70%;
+        text-align: ceenter;
+        margin: 0 auto;
+
+    }
+
+    .coffee-container .img-container.img{
+        margin-top: 5rem;
+        width: 50%;
+    }
+
+    .tirle{
+        margin: 0 auto;
+    }
+
+    .title-two{
+         margin: 0 auto;
+    }
+
+
+}
